@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+    font-size:20px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+nav ul {
+    text-align: right;
+   vertical-align:top;
+   margin: 0;
+   padding: 0;
+  
+}
+
+nav li {
+  display: inline-block;
+  padding: 30px;
+  list-style-type: none;
+  
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.container2 {
+  position: relative;
+  text-align: left;
+  color:#000;
+  margin-right: 20% ;
+    margin-left: 20% ;
+    box-sizing: content-box;
+    padding-top:100px;
+    height:800px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+
+}
+.container3 {
+    margin-right: 20% ;
+    margin-left: 20% ;
+    box-sizing: content-box;
+    height:500px;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:50px;
+}
+h3 {
+    font-size:30px;
+    padding-top:40px;
+}
+.text {
+    font-size:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img2 {
+    float:right;
+    padding-left:60px;
+}
+.logo {
+    width:300px;
+    float:left;
+    padding-top:25px;
+}
+.intro {
+  font-size:20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-fill-mode: forwards;
+}
+
+.intro2 {
+  font-size:20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-fill-mode: forwards;
+}
+
+.intro3 {
+  font-size:20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-delay: 2s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-fill-mode: forwards;
+}
+.intro4 {
+  font-size:20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-delay: 3.6s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-fill-mode: forwards;
+}
+.intro5 {
+  font-size:20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+</style>
+
+</head>
+
+<header>
+    <div class="container">
+      <nav>
+        <img class="logo" src="law.PNG">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<body>
+
+    <div class="container2">
+        <p class="intro">Hello.</p>
+        <br>
+        <br>
+        <p class="intro2">My name is Lawrence and I am a third year student studying Data Science and Decisions at UNSW. </p>
+        <br>
+        <br>
+        <p class="intro3">Welcome to my personal website, where I document all fun things relating to my life, especially tech and data sci! </p>
+        <br>
+        <br>
+        <p class="intro4">Below you will find all of my completed projects.</p>
+        <br>
+        <br>
+        <p class="intro5">Enjoy your stay! </p>
+    </div>
+    <h2>Project Portfolio</h2>
+    <div class="container3">    
+        <div class="img2">
+            <img src="project1.png" alt="lol">
+        </div>
+        <h3>Project 1</h3>
+        <text>
+            WIP.</text>
+    </div>
+    <div class="container3">    
+        <div class="img2">
+            <img src="project1.png" alt="lol">
+        </div>
+        <h3>Project 2</h3>
+        <text>
+            WIP</text>
+    </div>
+</body>
+</html> 
